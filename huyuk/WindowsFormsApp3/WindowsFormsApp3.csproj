@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2FE4C02-632D-4C6C-B4FD-80AC5456914A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp3</RootNamespace>
+    <AssemblyName>WindowsFormsApp3</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm10 入登记.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm10 入登记.designer.cs">
+      <DependentUpon>frm10 入登记.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm11 出登记.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm11 出登记.designer.cs">
+      <DependentUpon>frm11 出登记.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm12 记录查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm12 记录查询.designer.cs">
+      <DependentUpon>frm12 记录查询.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm9 查询结果.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm9 查询结果.Designer.cs">
+      <DependentUpon>frm9 查询结果.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm3 条件查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm3 条件查询.Designer.cs">
+      <DependentUpon>frm3 条件查询.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm8 帮助文件.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm8 帮助文件.Designer.cs">
+      <DependentUpon>frm8 帮助文件.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm7 学生信息修改.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm7 学生信息修改.Designer.cs">
+      <DependentUpon>frm7 学生信息修改.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm6 删除学生信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm6 删除学生信息.Designer.cs">
+      <DependentUpon>frm6 删除学生信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm5 增加学生信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm5 增加学生信息.Designer.cs">
+      <DependentUpon>frm5 增加学生信息.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm4 精确查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm4 精确查询.Designer.cs">
+      <DependentUpon>frm4 精确查询.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm1 主界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm1 主界面.Designer.cs">
+      <DependentUpon>frm1 主界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm2 登录界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm2 登录界面.Designer.cs">
+      <DependentUpon>frm2 登录界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm10 入登记.resx">
+      <DependentUpon>frm10 入登记.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm11 出登记.resx">
+      <DependentUpon>frm11 出登记.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm12 记录查询.resx">
+      <DependentUpon>frm12 记录查询.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm9 查询结果.resx">
+      <DependentUpon>frm9 查询结果.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm3 条件查询.resx">
+      <DependentUpon>frm3 条件查询.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm8 帮助文件.resx">
+      <DependentUpon>frm8 帮助文件.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm7 学生信息修改.resx">
+      <DependentUpon>frm7 学生信息修改.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm6 删除学生信息.resx">
+      <DependentUpon>frm6 删除学生信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm5 增加学生信息.resx">
+      <DependentUpon>frm5 增加学生信息.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm4 精确查询.resx">
+      <DependentUpon>frm4 精确查询.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm1 主界面.resx">
+      <DependentUpon>frm1 主界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm2 登录界面.resx">
+      <DependentUpon>frm2 登录界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
